@@ -50,10 +50,10 @@ body{
 	color: #D5D6E2;
 	font-weight: 500;
 	font-size: 1.05em;
-	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+	font-family: "Microsoft YaHei","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;
 }
-a{ color: #66677c;outline: none;text-decoration: none;-webkit-transition: 0.2s;transition: 0.2s;}
-a:hover,a:focus{color:#74777b;text-decoration: none;}
+.htmleaf-links a{ color: rgba(255, 255, 255, 0.6);outline: none;text-decoration: none;-webkit-transition: 0.2s;transition: 0.2s;}
+.htmleaf-links a:hover,.htmleaf-links a:focus{color:#74777b;text-decoration: none;}
 .htmleaf-container{
 	margin: 0 auto;
 }
@@ -76,17 +76,16 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	padding: 1em 190px 1em;
 	letter-spacing: -1px;
 	text-align: center;
+	background: #66677c;
 }
 .htmleaf-header h1 {
-	color: #66677c;
+	color: #D5D6E2;
 	font-weight: 600;
 	font-size: 2em;
 	line-height: 1;
 	margin-bottom: 0;
-	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
 }
 .htmleaf-header h1 span {
-	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
 	display: block;
 	font-size: 60%;
 	font-weight: 400;
@@ -177,6 +176,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 	-webkit-backface-visibility: hidden;
+	text-decoration: none;
 }
 
 .related a:hover,
