@@ -7,6 +7,8 @@
 	<title>For:Super Lady - WXJ</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+
 	<style type="text/css">
 		@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400);
 		body,
@@ -29,7 +31,7 @@
 		  font-size: 1.2em;
 		  text-shadow: #000 1px 1px 1px;
 		  width: 1000px;
-		  height: 200px;
+		  height: 300px;
 		  padding: 20px;
 		  background-color: rgba(0, 0, 0, 0.7);
 		  border-radius: 6px;
@@ -40,6 +42,7 @@
 		}
 	</style>
 	<script src="js/prefixfree.min.js"></script>
+	<script src = "js/jquery.min.js"></script>
 	<!--[if IE]>
 		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
 	<![endif]-->
@@ -47,19 +50,50 @@
 <body>
 <header class="htmleaf-header">
 	<h1>WUXJ.VIP正式上线啦<span>相识满月记 ---- 致超强小姐</span></h1>
-	<div class="htmleaf-links">
-		<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="TimeLine/index.html" title="传送门" target="_self"><span>传送门1</span></a>
-		<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="TimeLine/index.html" title="传送门" target="_self"><span>传送门2</span></a>
-	</div>
 </header>
 <div class="desc">
 
   
-  千里走单骑, 何浩乎勇气? 若为佳人故, 山海皆可移<br />
-   
-  
+  千里走单骑, 何浩乎勇气? 若为佳人故, 山海皆可移.<br /><br />
+		<div id="first" class="buttonBox">
+		  <button id="TimeZone">白驹剪影</button>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		</div>
+		
 
-</div>
+		<div id="third" class="buttonBox">
+		  <button>身影魔方</button>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		</div>
+
+		<div id="fourth" class="buttonBox">
+		  <button>我的独白</button>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		</div>
+
+		<div id="fifth" class="buttonBox">
+		  <button>你的名字</button>
+		</div>
+
+		<div id="sixth" class="buttonBox">
+		  <button>赠人玫瑰</button>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		  <div class="border"></div>
+		</div>
+
+
+		<div id="eighth" class="buttonBox">
+		  <button>皓若月光（暂未开放）</button>
+		</div>
 </div>
 	
 	<script type="text/javascript">
@@ -71,6 +105,27 @@
 		}
 
 		parallax();
+		
+		$('#first').click(function(){
+		window.location.href  = 'TimeLine/index.html';
+		});
+		
+		$('#third').click(function(){
+		window.location.href  = 'MaHong/index.html';
+		});
+		
+		$('#fourth').click(function(){
+		window.location.href  = 'MyWord/index.html';
+		});
+		
+		$('#fifth').click(function(){
+		window.location.href  = 'YourName/index.html';
+		});
+		
+		$('#sixth').click(function(){
+		window.location.href  = 'Rose/index.html';
+		});
 	</script>
+
 </body>
 </html>
