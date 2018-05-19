@@ -8,6 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
 	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/x0popup.min.css">
+	<link rel="stylesheet" href="css/rainbow.monokai.css">
 
 	<style type="text/css">
 		@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400);
@@ -97,7 +100,8 @@
 		  <button>皓若月光（暂未开放）</button>
 		</div>
 </div>
-	
+	<script src="js/x0popup.min.js"></script>
+	<script src="js/rainbow.min.js"></script>
 	<script type="text/javascript">
 		function parallax() {
 		  window.onscroll = function() {
@@ -121,7 +125,13 @@
 		});
 		
 		$('#fifth').click(function(){
-		window.location.href  = 'YourName/index.html';
+		x0p({
+			title: '你好呀，吴小娟.',
+			animationType: 'slideDown',
+			icon: 'info',
+			buttons: [],
+			autoClose: 3000
+			});
 		});
 		
 		$('#sixth').click(function(){
