@@ -78,15 +78,15 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	text-align: center;
 }
 .htmleaf-header h1 {
-	color: #66677c;
+	color: #FF8C00;
 	font-weight: 600;
-	font-size: 2em;
+	font-size: 3em;
 	line-height: 1;
 	margin-bottom: 0;
-	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+	font-family: "Microsoft YaHei","幼圆","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
 }
 .htmleaf-header h1 span {
-	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+	font-family: "Microsoft YaHei","幼圆","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
 	display: block;
 	font-size: 60%;
 	font-weight: 400;
@@ -214,7 +214,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 		padding: 2em 10% 2em;
 	}
 	.htmleaf-header h1 {
-        font-size:1.4em;
+        font-size:2.0em;
     }
     .htmleaf-links{font-size: 1.4em}
 }
@@ -224,7 +224,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 		padding: 2em 10% 2em;
 	}
 	.htmleaf-header h1 {
-        font-size:1.2em;
+        font-size:2.0em;
     }
     .htmleaf-links{font-size: 1.2em}
     .related h3{font-size: 1em;}
@@ -235,7 +235,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 
 @media screen and (max-width: 766px) {
 	.htmleaf-header h1 {
-        font-size:1.3em;
+        font-size:2.0em;
     }
     .htmleaf-links{font-size: 1.3em}
 }
