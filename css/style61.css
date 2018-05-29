@@ -5,9 +5,10 @@ body{
 
 #top-image {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-  ), url('../images/mountains_light_sun_sky_clouds_114136_2560x1080.jpg') no-repeat fixed;
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+  ), url('../images/61.jpg') no-repeat fixed;
+  background-size : 100%;
   position:fixed ;
   top:0;
   width:100%;
