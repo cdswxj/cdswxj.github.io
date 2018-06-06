@@ -91,7 +91,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	font-size: 60%;
 	font-weight: 400;
 	padding: 0.8em 0 0.5em 0;
-	color: #c3c8cd;
+	color: rgb(255, 140, 0);
 }
 /*nav*/
 .htmleaf-demo a{color: #fff;text-decoration: none;}
