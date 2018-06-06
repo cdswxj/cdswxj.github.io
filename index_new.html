@@ -50,14 +50,14 @@
 			</header>
 
 			<section class="content content--c12" id="section12">
-				<a href="#section12" class="section-link">千里走单骑, 何浩乎勇气? 若为佳人故, 山海皆可移.</a>
+				<a href="#section12" class="section-link" id="wxj">千里走单骑, 何浩乎勇气? 若为佳人故, 山海皆可移.</a>
 				<div class="slideshow slideshow--12" data-effect="fx12">
-					<div class="slide slide--current"><a href="TimeLine/index.html"><h2 class="title title--style-12">君の名は</h2></a></div>
+					<div class="slide slide--current"><a id ="hello"><h2 class="title title--style-12">君の名は</h2></a></div>
 					<div class="slide"><a href="MaHong/index.html"><h2 class="title title--style-12">娉娉袅袅</h2></a></div>
 					<div class="slide"><a href="TimeLine/index.html"><h2 class="title title--style-12">白驹快闪</h2></a></div>
 					<div class="slide"><a href="Rose/index.html"><h2 class="title title--style-12">可爱深红爱浅红</h2></a></div>
 					<div class="slide"><a href="MyWord/index.html"><h2 class="title title--style-12">制作后感</h2></a></div>
-					<div class="slide"><a href="TimeLine/index.html"><h2 class="title title--style-12">皓若月光（暂未开放）</h2></a></div>
+					<div class="slide"><a><h2 class="title title--style-12">皓若月光（暂未开放）</h2></a></div>
 					<div class="slide"><a href="index61.html"><h2 class="title title--style-12">欢度六一</h2></a></div>
 				</div>
 				<img class="deco-image" src="img/11.png" alt="Broccoli" />
@@ -85,6 +85,10 @@
 		e.initEvent("click", true, true);
 		document.getElementById("autoNext").dispatchEvent(e);
 		}, 2000);
+		
+		$('#hello').click(function(){
+			$('#wxj').html('你好呀，吴小娟~');
+		});
 		
 		</script>
 		<script>
